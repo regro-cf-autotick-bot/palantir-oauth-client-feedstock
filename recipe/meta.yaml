@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/palantir-oauth-client-{{ version }}.tar.gz
-  sha256: ac44c94a417a90dae0cfdea0780dfe128ce38a8a1efa9b6fdbe3a223e397905a
+  sha256: 99eadc91abcd5ac5696bc32e93754693279b424053276b07f03635fa8b790393
 
 build:
   noarch: python
