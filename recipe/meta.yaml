@@ -1,5 +1,5 @@
 {% set name = "palantir-oauth-client" %}
-{% set version = "1.5.6" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/palantir-oauth-client-{{ version }}.tar.gz
-  sha256: b681c3a154ed10e8b2ee9011fea63a9aa5722f92dbc68c4457a4aff018efc261
+  sha256: 8341967ac463168016dd219d797265f76bd2fb955b5eb4142bbc958fad54e428
 
 build:
   noarch: python
